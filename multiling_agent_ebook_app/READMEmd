@@ -1,0 +1,25 @@
+"# Multilingual AI eBook App
+
+This is a trilingual conversational eBook reader app powered by GPT-4o, built for children aged 4–8. It supports stories in English, Spanish, and Basque and enables children to interact with the story characters through real-time conversation.
+
+## How to Run
+
+1. Clone the repo:
+\`\`\`
+git clone https://github.com/tthomas840/multiling_agent_ebook_app.git
+\`\`\`
+
+2. Navigate to the backend and run Flask:
+\`\`\`
+cd backend
+python app.py
+\`\`\`
+
+3. Navigate to the frontend and start the app:
+\`\`\`
+cd frontend
+npm install
+npm start
+\`\`\`
+
+Make sure you have an OpenAI API key and MongoDB connection string set in a .env file.
